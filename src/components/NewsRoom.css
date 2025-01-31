@@ -1,0 +1,6 @@
+.news-room{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    place-self: flex-start;
+  }

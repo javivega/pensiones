@@ -1,38 +1,134 @@
-.App {
-  text-align: center;
+body {
+  height: 100%;
+  margin-top: 0px;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p{
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+h1{
+  margin: 0;
+
+  color: #EEF4FC;
+  font-family: "Bebas Neue";
+  font-size: 7.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 8rem; /* 106.667% */
   }
+
+.hero-section{
+  background-color: #143C71;
+  background-image: url(./assets/background-lines.svg);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hero-section--container{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  height: 100vh;
+  max-width: 100re;
+
+  margin: 0 auto;
+  gap: 4rem;
+}
+
+.hero-section--upper-row{
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  max-width: 100%;
+  justify-content: space-between;
+  height: 40%;
+  margin: 0;
+
+
+  padding: 2rem ;
+}
+
+.hero-section--subtitle{
+  max-width: 28rem;
+
+  color: #EEF4FC;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem; /* 133.333% */
+}
+
+.hero-section--scroll-down{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.hero-section--scroll-down span{
+  transform: rotate(-90deg);
+
+  color: #EEF4FC;
+
+  /* paragraph/md */
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 150% */
+  text-transform: uppercase;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hero-section--upper-row--icon-container {
+  display: inline-flex;
+  width: 3rem;
+  height: 4.5rem;
+  flex-shrink: 0;
+  justify-content: center;
+
+  border-radius: 6.25rem;
+  background: #EEF4FC;
+}
+
+.hero-section--lower-row{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-grow: 1;
+  height: 100%;
+
+  justify-content: space-between;
+  align-items: flex-end;
+
+  margin: 0;
+
+  padding: 2rem;
+}
+
+.hero-section--title{
+  max-width: 56.5rem;
+  height: max-content;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero-section--newsRoom{
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  place-self: flex-start;
+}
+
+.hero-section--chip{
+  display:inline-block;
+  border-radius: 21.875rem;
+  background: var(--surface-primary, #EEF4FC);
+  padding: 0.875rem;
+  line-height: 0;
+}
+
+.hero-section--chip img{
+  height: 3.5rem;
+  width: auto;
 }

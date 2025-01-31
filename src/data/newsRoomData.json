@@ -1,0 +1,19 @@
+{
+    "news": [
+        {
+            "pressTitle": "El País",
+            "year": "2024",
+            "title": "La OCDE ve insuficiente la reforma de las pensiones y aconseja revisar las prestaciones"
+        },
+        {
+            "pressTitle": "El Mundo",
+            "year": "2024",
+            "title": "Los gastos crecen el doble que los ingresos: la OCDE alerta sobre la reforma de las pensiones en España"
+        },
+        {
+            "pressTitle": "ABC",
+            "year": "2024",
+            "title": "La generosidad del sistema de pensiones lo hace insostenible"
+        }
+    ]
+}
