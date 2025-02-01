@@ -1,0 +1,22 @@
+.steppers{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    justify-content: center;
+}
+
+.stepper{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 6.25rem;
+    background: var(--surface-information, #C2D8F4);
+}
+
+.stepper.active {  
+    width: 0.5rem;
+    height: 1.5rem;
+    border-radius: 6.25rem;
+    background: #EEF4FC;
+
+
+}
