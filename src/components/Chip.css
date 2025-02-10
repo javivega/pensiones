@@ -1,3 +1,7 @@
+.chip-container{
+    position: relative;
+}
+
 .chip{
     display: flex;    padding: 0.75rem 1.5rem;
     justify-content: center;
@@ -12,4 +16,20 @@
     font-style: normal;
     font-weight: 700;
     line-height: 2.5rem; /* 125% */
+
+    opacity: 0.5;
+
+    cursor: pointer;
+    }
+
+    .chip.active{
+        opacity: 1;
+    }
+
+    .chip.hovered{
+        opacity: 0.8;
+    }
+
+    .chip.active.hovered{
+        opacity: 1;
     }

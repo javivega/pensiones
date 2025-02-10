@@ -1,0 +1,47 @@
+.info-container--container{
+    display: flex;
+    width: 28.375rem;
+    padding: 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    justify-content: center;
+
+    border-radius: 1.5rem;
+    background: var(--surface-active, #143C71);
+    position: absolute;
+    right: -32.5rem;
+    bottom: 0;
+    display: none;
+
+    border-radius: 1.5rem;
+    background: var(--surface-active, #143C71);
+    box-shadow: 2px 8px 16px 0px rgba(20, 60, 113, 0.20);
+}
+
+.info-container--container.active{
+    display: flex;
+}
+
+h5{
+    align-self: stretch;
+    color: #FEFEFE;
+    font-family: "Bebas Neue";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.25rem; /* 112.5% */
+    margin: 0;
+}
+
+p{
+    color: #FEFEFE;
+
+    /* paragraph/md */
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 150% */
+    margin: 0;
+}

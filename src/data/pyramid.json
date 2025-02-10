@@ -1,0 +1,45 @@
+{
+    "info": [
+        {
+            "chip": "1990",
+            "title": "title",
+            "description": "España tenía aproximadamente 38,8 millones de habitantes. La población joven era predominante, con una base amplia de personas en edad laboral y una proporción menor de personas mayores."
+        },
+        {
+            "chip": "2000",
+            "title": "title",
+            "description": "La población aumentó a cerca de 40,9 millones. Aunque seguía habiendo una proporción significativa de jóvenes, comenzaba a notarse un ligero envejecimiento de la población."
+        },
+        {
+            "chip": "2010",
+            "title": "title",
+            "description": "La población alcanzó aproximadamente 47 millones. Este incremento se debió en parte a la inmigración. Sin embargo, continuaba la tendencia hacia el envejecimiento, con un aumento en la esperanza de vida y una disminución en la tasa de natalidad."
+        },
+        {
+            "chip": "2020",
+            "title": "title",
+            "description": "La población se situó en torno a 47,3 millones. La estructura demográfica reflejaba un notable envejecimiento, con una proporción creciente de personas mayores de 65 años y una disminución en la población joven, lo que planteaba desafíos para el sistema de pensiones y el mercado laboral."
+        },
+        {
+            "chip": "2030",
+            "title": "title",
+            "description": "Se estima que la población disminuirá a aproximadamente 46 millones. La tendencia al envejecimiento se acentuará, con una mayor proporción de personas en edades avanzadas y una reducción en la población en edad laboral, lo que podría afectar la sostenibilidad del sistema de pensiones públicas."
+        },
+        {
+            "chip": "2040",
+            "title": "title",
+            "description": "Las proyecciones indican una población de alrededor de 45 millones. El envejecimiento poblacional será más pronunciado, con un incremento significativo en la proporción de personas mayores de 80 años, aumentando la presión sobre los sistemas de salud y pensiones."
+        },
+        {
+            "chip": "2050",
+            "title": "title",
+            "description": "Se anticipa una reducción de la población a cerca de 43 millones. La estructura demográfica mostrará una base estrecha en las cohortes jóvenes y una cima ancha en las edades avanzadas, reflejando una población predominantemente envejecida y planteando retos económicos y sociales significativos."
+        },
+        {
+            "chip": "2060",
+            "title": "title",
+            "description": "Las proyecciones sugieren una población de aproximadamente 41 millones. La tendencia de envejecimiento continuará, con una proporción considerable de la población en edades muy avanzadas, lo que requerirá adaptaciones en las políticas públicas relacionadas con las pensiones y la atención sanitaria."
+        }
+        
+    ]
+}

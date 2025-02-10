@@ -1,3 +1,7 @@
+html {
+  scroll-snap-type: y mandatory;
+}
+
 body {
   height: 100%;
   margin-top: 0px;
@@ -19,9 +23,25 @@ h1{
   line-height: 8rem; /* 106.667% */
   }
 
+h2 {
+  color: var(--text-headings, #143C71);
+  text-align: center;
+
+  margin: 0;
+
+  /* title/lg */
+  font-family: "Bebas Neue";
+  font-size: 4.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 5.5rem; /* 122.222% */
+}
+
 .hero-section{
   background-color: #143C71;
   background-image: url(./assets/background-lines.svg);
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
 
 .hero-section--container{
@@ -140,13 +160,18 @@ h1{
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  min-height: 95vh;
+  max-height: 95vh;
   background-color: var(--surface-page, #EEF4FC);
-
+  overflow: hidden;
+  padding: 2rem 4rem;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
 
 .ratio-section h2{
   margin: 0;
+  padding: 2rem 0 1.5rem 0;
 
   color: var(--text-headings, #143C71);
   text-align: center;
@@ -159,23 +184,18 @@ h1{
   line-height: 5.5rem; /* 122.222% */
 }
 
-.ratio-section--chip-container{
-  display: flex;
-  flex-direction: row;
-  gap: 0.5rem;
-  align-items: center;
-  justify-content: center;
-}
-
 .ratio-section img{
   height: 15rem;
   width: auto;
   align-items: center;
+  padding: 3.5rem 0 0 0;
 }
 
 .ratio-section--description{
   display: flex;
   align-items: center;
+  max-width: 100rem;
+  padding: 2rem 0;
 }
 
 .ratio-section--description h4 {
@@ -194,4 +214,226 @@ h1{
   font-style: normal;
   font-weight: 400;
   line-height: 25rem; /* 100% */
+}
+
+.year-2020 {
+  display: none;
+}
+
+.pyramid-section{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  min-height: 95vh;
+  max-height: 95vh;
+  background-color: var(--surface-page, #EEF4FC);
+  overflow: hidden;
+  padding: 2rem 0;
+
+  background: var(--surface-success, #E7F6E5);
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+.pyramid-section h2 {
+  padding: 2rem 0 1.5rem 0;
+}
+
+
+.pyramid-section--container{
+  display: flex;
+  max-width: 100rem;
+  justify-content: space-between;
+  flex-grow: 1;
+  align-items: center ;
+  height: 100%;
+
+}
+
+.pyramid-section--chip-container{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.pyramid-section--image-container{
+  width: 80%;
+}
+
+.pyramid-section--container img{
+  width: 80%;
+  height: auto;
+
+}
+
+.expenditure-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 95vh;
+  max-height: 95vh;
+  background-color: var(--surface-page, #EEF4FC);
+  overflow: hidden;
+  padding: 2rem 0;
+
+  background: var(--surface-page, #EEF4FC);
+  justify-content: center;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+.expenditure-section--container{
+  display: flex;
+  max-width: 100rem;
+  flex-grow: 1;
+  align-items: center ;
+  height: 100%;
+}
+
+.expenditure-section--percentage{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.expenditure-section--container img{
+  max-width: 50%;
+}
+
+.expenditure-section--container h4{
+  margin: 0;
+  color: var(--text-headings, #143C71);
+  font-family: Poppins;
+  font-size: 9.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 9.75rem; /* 105.405% */
+}
+
+.expenditure-section--container span{
+  color: var(--text-headings, #143C71);
+  font-family: "Bebas Neue";
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 4rem; /* 114.286% */
+}
+
+.taxes-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 95vh;
+  max-height: 95vh;
+  background-color: var(--surface-page, #EEF4FC);
+  overflow: hidden;
+  padding: 2rem 0;
+  gap: 9rem;
+
+  background: var(--surface-success, #E7F6E5);
+  justify-content: center;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+
+}
+
+.taxes-section--paper{
+  width: 54.6875rem;
+  height:70vh;
+  padding: 2rem;
+  margin: 0 0 -5rem 0;
+  flex-shrink: 0;
+  border-radius: 0.25rem;
+  background: #FFF;
+  box-shadow: 4px 24px 24px 0px var(--surface-warning, #F7E9D1);
+}
+
+.taxes-section h4{
+  margin: 0;
+  color: var(--text-body, #1C1C1C);
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 4rem; /* 114.286% */
+}
+
+.taxes-section--paper--mid p{
+  color: var(--text-body, #1C1C1C);
+  font-family: "Bebas Neue";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.5rem; /* 125% */
+}
+
+.taxes-section--paper--mid span{
+  color: var(--text-headings, #143C71);
+  font-family: "Bebas Neue";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.5rem; /* 125% */
+}
+
+.taxes-section--paper--mid{
+  display: flex;
+  width: 100%;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.taxes-section--paper--end{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.taxes-section--paper--end p{
+  color: var(--text-headings, #143C71);
+  font-family: Poppins;
+  font-size: 9.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 9.75rem; /* 105.405% */
+}
+
+.taxes-section--paper--end span{
+  color: var(--text-headings, #143C71);
+  font-family: Poppins;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 9.75rem; /* 390% */
+}
+
+.tag{
+  display: inline-flex;
+  height: fit-content;
+  padding: 0.75rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 6.25rem;
+  background: var(--surface-information, #C2D8F4);
+
+  color: var(--text-headings, #143C71);
+}
+
+.tag span{
+  /* paragraph/md */
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5rem; /* 150% */
+  margin: 0
 }

@@ -1,0 +1,15 @@
+.chip-container.horizontal{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .chip-container.vertical{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+  }
